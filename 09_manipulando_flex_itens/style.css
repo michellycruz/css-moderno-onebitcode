@@ -15,7 +15,7 @@
     /*flex-wrap: wrap;*/
 }
 .item{
-    width: 100%;
+    width: 200px;
     height: 70px;
     border: 2px solid black;
     background-color: white;
@@ -26,11 +26,18 @@
 }
 
 .item1{
-
+    order: 2;
+    /*align-self: flex-start;*/
 }
 .item2{
-    flex: 1 0 200px;
+    order: 3;
 }
 .item3{
+    order: 1;
+}
 
+@media(max-width: 390px){
+    .item2{
+        flex: 1 0 620px;
+    }
 }
