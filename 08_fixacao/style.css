@@ -1,31 +1,36 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    height: 50px;
 }
 
 header{
-    padding: 10px 25px;
+    width: auto;
+    padding: 10px;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.iconrock{
-    width: 50px;
-    padding: 10px;
+.botoes{
+    display: flex;
+    gap: 15px;
 }
 
-.logo{
-    height: 35px;
-}
-
-button{
-    height: 40px;
-    width: 55px;
-    border-radius: 10px;
-    background-color: black;
+.botao{
+    padding: 10px 15px;
+    background-color: transparent;
     color: white;
+    border-color: rgba(255, 255, 255, 0.187);
+    border-radius: 10px;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.botao:hover{
+    border-color: #ff0044;
 }
