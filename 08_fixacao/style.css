@@ -3,32 +3,36 @@
     margin: 0px;
 }
 
-img{
-    height: 50px;
+.logo{
+    max-height: 60px;
+}
+.iconrock{
+    padding: 5px;
+    max-height: 60px;
 }
 
-header{
-    width: auto;
-    padding: 10px;
+.header{
     background-color: black;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
     align-items: center;
 }
 
 .botoes{
-    display: flex;
+    padding: 10px;
     gap: 15px;
+    display: flex;
 }
 
 .botao{
-    padding: 10px 15px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: transparent;
     color: white;
-    border-color: rgba(255, 255, 255, 0.187);
-    border-radius: 10px;
-    cursor: pointer;
     transition: 0.4s;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .botao:hover{
