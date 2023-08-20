@@ -20,6 +20,12 @@
     }
 }
 @media screen and (min-width:1024px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+    }
     .container1{
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -47,7 +53,9 @@
 
 @media screen and (min-width:1334px){
     .header{
-        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         padding: 15px;
     }
     .img-sport{
