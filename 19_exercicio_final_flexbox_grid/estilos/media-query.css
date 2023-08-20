@@ -20,10 +20,6 @@
     }
 }
 @media screen and (min-width:1024px){
-    .header, .footer{
-        display: flex;
-        justify-content: space-between;
-    }
     .container1{
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -51,9 +47,7 @@
 
 @media screen and (min-width:1334px){
     .header{
-        display: flex;
         justify-content: space-between;
-        align-items: center;
         padding: 15px;
     }
     .img-sport{
