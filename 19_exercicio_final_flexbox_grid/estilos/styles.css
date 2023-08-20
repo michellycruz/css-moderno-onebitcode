@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*VERSÃO MOBILE*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1: #ff0044;
+    --cor2: black;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header, .footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor2);
+    padding: 15px;
+}
+.logo, .logo-footer{
+    max-width: 120px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 3px solid black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.botao:hover{
+    border-bottom: 3px solid var(--cor1);
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.wellcome{
+    text-align: center;
+    padding: 10px;
+}
+.img-sport, .img-extra{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.sports{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 10px;
+}
+.itemEsporte{
+    border:1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.itemEsporte:hover{
+    background-color: #ff0044;
+    color: rgba(255, 255, 255, 0.763);
+}
+.container-extras{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container-extras{
+    grid-area: container-extras;
+}
