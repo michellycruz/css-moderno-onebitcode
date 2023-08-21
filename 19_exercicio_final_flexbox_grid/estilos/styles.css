@@ -15,6 +15,7 @@ button{
 :root{
     --cor1: #ff0044;
     --cor2: black;
+    --cor3: #292929;
 }
 
 .main-content{
@@ -60,7 +61,7 @@ a:hover{
     background-color: transparent;
     color: white;
     border: none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid var(--cor2);
     transition: 0.4s;
     cursor: pointer;
 }
@@ -90,7 +91,7 @@ a:hover{
     padding: 10px;
 }
 .itemEsporte{
-    border:1px solid black;
+    border:1px solid --cor2;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -103,7 +104,7 @@ a:hover{
 }
 .container-extras{
     box-sizing: border-box;
-    background-color: rgb(29, 29, 29);
+    background-color: var(--cor3);
     color: white;
     padding: 30px;
     display: flex;
