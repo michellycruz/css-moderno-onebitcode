@@ -93,7 +93,7 @@ a:hover{
 }
 .itemEsporte{
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.316);
-    padding: 8px;
+    padding: 10px;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
