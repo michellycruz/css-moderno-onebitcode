@@ -1,11 +1,16 @@
 @charset "utf-8";
 
 /*TODAS AS DEMAIS MÍDIAS*/
-@media screen and (min-width: 600px){
-    .img-sport, .img-extra{
-        width: 500px;
+@media screen and (min-width: 750px){
+    .img-sport{
+        width: 100%;
         height: auto;
     }
+    .img-extra{
+        width: 550px;
+        height: auto;
+    }
+    
     p{
         font-size: 20px;
     }
@@ -27,13 +32,14 @@
         padding: 15px;
     }
     .container1{
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        flex: 1 0 auto;
-        grid-template-areas: 
-        "sports sports container-extras";
+        display: flex;
+        flex-direction: column;
     }
-    .img-sport, .img-extra{
+    .img-sport{
+        width: 280px;
+        height: auto;
+    }
+    .img-extra{
         width: 180px;
         height: auto;
     }
@@ -43,26 +49,10 @@
         gap: 15px;
         display: grid;
         flex: 1 0 auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-area: sports;
     }
     .container-extras{
-        max-width: 300px;
-    }
-}
-
-@media screen and (min-width:1334px){
-    .header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 15px;
-    }
-    .img-sport{
-        width: 280px;
-        height: auto;
-    }
-    .sports{
         display: grid;
         flex-wrap: wrap;
         gap: 15px;
@@ -70,7 +60,32 @@
         flex: 1 0 auto;
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+@media screen and (min-width:1250px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .img-sport{
+        width: 70%;
+        height: auto;
+    }
+    .sports{
+        display: grid;
+        flex-wrap: wrap;
+        gap: 15px;
+        flex: 1 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .itemEsporte{
+        max-width: 500px;
+    }
     .container-extras{
+        display: flex;
+        flex-direction: column;
         max-width: 300px;
     }
     .container1{
@@ -79,5 +94,29 @@
         flex: 1 0 auto;
         grid-template-areas: 
         "sports sports sports container-extras";
+    }
+}
+
+@media screen and (min-width:2000px){
+    .container-extras{
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .img-sport{
+        width: 100%;
+        height: auto;
+    }
+    .img-extra{
+        width: 90%;
+        height: auto;
+    }
+    .sports{
+        padding: 60px 250px;
+        display: grid;
+        flex-wrap: wrap;
+        gap: 15px;
+        flex: 1 0 auto;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
