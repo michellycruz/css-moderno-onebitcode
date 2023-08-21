@@ -21,7 +21,7 @@ button{
     box-sizing: border-box;
 }
 
-.header, .footer{
+.header{
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -29,6 +29,23 @@ button{
     align-items: center;
     background-color: var(--cor2);
     padding: 15px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor2);
+    padding: 15px;
+    font-size: 12px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+a:hover{
+    color: var(--cor1);
 }
 .logo, .logo-footer{
     max-width: 120px;
