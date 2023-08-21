@@ -23,6 +23,7 @@ button{
 }
 
 .header{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.316);
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -91,7 +92,8 @@ a:hover{
     padding: 10px;
 }
 .itemEsporte{
-    padding: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.316);
+    padding: 8px;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
