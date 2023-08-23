@@ -4,5 +4,15 @@
     }
     li{
         background-color: aquamarine;
+        margin: 10px;
+    }
+    button{
+        background-color: brown;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover{
+            background-color: gray;
+        }
     }
 } 

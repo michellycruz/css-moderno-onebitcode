@@ -3,6 +3,16 @@
 }
 .classe1 li {
   background-color: aquamarine;
+  margin: 10px;
+}
+.classe1 button {
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.classe1 button:hover {
+  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
