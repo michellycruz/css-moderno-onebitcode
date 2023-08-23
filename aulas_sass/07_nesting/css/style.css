@@ -9,10 +9,10 @@
   background-color: brown;
   color: white;
   cursor: pointer;
-  transition: 0.4s;
 }
 .classe1 button:hover {
   background-color: gray;
+  transition: 0.4s;
 }
 
 /*# sourceMappingURL=style.css.map */
