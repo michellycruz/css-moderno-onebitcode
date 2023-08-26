@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
 @function color-title($background-color){
     @if(lightness($background-color) > 50){
         @return black;
@@ -12,5 +17,6 @@
 }
 
 .title{
+    height: 100vh;
     @include background-color-mixin(black)
 }
