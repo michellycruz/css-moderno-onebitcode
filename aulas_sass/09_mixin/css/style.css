@@ -1,3 +1,12 @@
-
+.text h1 {
+  color: #ff4043;
+  font-size: 34px;
+  font-family: Arial;
+}
+.text p {
+  color: blue;
+  font-size: 20px;
+  font-family: Courier;
+}
 
 /*# sourceMappingURL=style.css.map */
