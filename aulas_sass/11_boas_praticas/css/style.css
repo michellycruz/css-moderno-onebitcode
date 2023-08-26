@@ -13,6 +13,12 @@
   cursor: pointer;
 }
 
+#cadastro-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #ff4043;
+}
+
 a {
   text-decoration: none;
 }
