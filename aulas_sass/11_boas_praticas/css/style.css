@@ -14,9 +14,15 @@
 }
 
 #cadastro-text {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  color: #ff4043;
+  color: red;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.container p {
+  color: blue;
+  font-size: 20px;
+  font-family: monospace;
 }
 
 a {
